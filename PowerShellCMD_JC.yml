@@ -1,0 +1,9 @@
+---
+- hosts: all
+ tasks:
+
+ - name: Single line PowerShell
+  win_shell: Get-Date -Format G
+
+ - name: Execute a Powershell script
+   win_shell: c:\Ansible\MyScript.ps1
