@@ -1,3 +1,2 @@
 ---
-  tasks:
    win_shell: Get-Date -Format G
