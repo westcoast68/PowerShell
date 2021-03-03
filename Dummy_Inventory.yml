@@ -1,5 +1,4 @@
 ---
-all:
   hosts:
     sierrahealth.com:
   children:
@@ -15,9 +14,3 @@ all:
        LASBBSRVCM01.SIERRAHEALTH.COM:
        LASBBSRVCM02.SIERRAHEALTH.COM:
        LASBBSRVDB01.SIERRAHEALTH.COM:
- 
-    thursday_servers:
-      hosts:
-       
-    friday_servers:
-      hosts:
