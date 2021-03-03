@@ -1,0 +1,25 @@
+---
+all:
+  hosts:
+    sierrahealth.com:
+  children:
+    monday_servers:
+      hosts:
+        infrdl1nr001.sierrahealth.com:
+        infrdl1nr002.sierrahealth.com:
+    tuesday_servers:
+      hosts:
+        infrdl1nr001.sierrahealth.com:
+        infrdl1nr002.sierrahealth.com:
+    wednesday_servers:
+      hosts:
+        infrdl1nr001.sierrahealth.com:
+        infrdl1nr002.sierrahealth.com:
+    thursday_servers:
+      hosts:
+        infrdl1nr001.sierrahealth.com:
+        infrdl1nr002.sierrahealth.com:
+    friday_servers:
+      hosts:
+        infrdl1nr001.sierrahealth.com:
+        infrdl1nr002.sierrahealth.com:
