@@ -21,5 +21,3 @@ all:
        
     friday_servers:
       hosts:
-        infrdl1nr001.sierrahealth.com:
-        infrdl1nr002.sierrahealth.com:
