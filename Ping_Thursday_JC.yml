@@ -1,5 +1,5 @@
 ---
-- hosts: Friday
+- hosts: Thursday
   tasks:
   - win_ping:
    
