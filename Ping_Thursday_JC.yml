@@ -1,0 +1,7 @@
+---
+- hosts: Friday
+  tasks:
+  - win_ping:
+   
+   
+#win_shell: Get-Date -Format G
