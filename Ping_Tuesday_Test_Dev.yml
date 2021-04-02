@@ -1,5 +1,5 @@
 ---
-- hosts: Ping_Tuesday_Test_Dev
+- hosts: Tuesday_Test_Dev
   tasks:
   - win_ping:
    
