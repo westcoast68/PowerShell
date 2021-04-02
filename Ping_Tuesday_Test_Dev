@@ -1,0 +1,7 @@
+---
+- hosts: Ping_Tuesday_Test_Dev
+  tasks:
+  - win_ping:
+   
+   
+#win_shell: Get-Date -Format G
