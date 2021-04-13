@@ -1,5 +1,5 @@
 ---
-- hosts: Tuesday_NonProduction
+- hosts: NonProduction
   tasks:
   - win_ping:
    
