@@ -1,0 +1,3 @@
+- hosts: Monday
+  tasks:
+  - win_ping:
