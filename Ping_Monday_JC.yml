@@ -1,7 +1,7 @@
 -	Name: Check specific service
   win_service: 
-    name: ActiveMQ
-    state: started
+  name: ActiveMQ
+  state: started
    
    
 #win_shell: Get-Date -Format G
