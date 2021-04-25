@@ -1,7 +1,7 @@
----
-- hosts: Monday
-  tasks:
-  - win_ping:
+-	Name: Check specific service
+  win_service: ActiveMQ
+    name: 
+    state: started
    
    
 #win_shell: Get-Date -Format G
