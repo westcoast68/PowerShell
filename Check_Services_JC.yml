@@ -1,4 +1,4 @@
 -	Name: Check specific service
-  win_service: ActiveMQ
-    name: 
+  win_service: 
+    name: ActiveMQ
     state: started
