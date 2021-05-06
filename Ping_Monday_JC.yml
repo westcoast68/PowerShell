@@ -1,8 +1,6 @@
--	Name: Check specific service
+---
+- hosts: Monday
+  gather_facts: False
+  strategy: free
   tasks:
-  - win_service: 
-  name: ActiveMQ
-  state: started
-   
-   
-#win_shell: Get-Date -Format G
+  - win_ping:
