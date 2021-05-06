@@ -1,5 +1,7 @@
 ---
 - hosts: Wednesday
+  gather_facts: False
+  strategy: free
   tasks:
   - win_ping:
    
