@@ -1,7 +1,8 @@
 ---
 - hosts: NonProduction
+  gather_facts: False
+  strategy: free
   tasks:
   - win_ping:
    
-   
-#win_shell: Get-Date -Format G
+
