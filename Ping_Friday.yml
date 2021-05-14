@@ -4,7 +4,7 @@
   strategy: free
   tasks:
   - win_ping:
-var=details.stdout_lines
+- debug: msg="{{ details.stdout_lines | quote }}"
    
    
 
