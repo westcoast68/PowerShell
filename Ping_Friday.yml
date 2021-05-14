@@ -1,9 +1,3 @@
----
-- hosts: Friday
-  gather_facts: False
-  strategy: free
-  tasks:
-  - win_ping:
-   
-   
-
+  - name: Show results
+    debug:
+    msg: "URL: {{hostvars[inventory_hostname]['ansible_nodename']}} RECORDCOUNT: {{results.stdout}} BASE VERSION: {{baseversion.stdout}}"
