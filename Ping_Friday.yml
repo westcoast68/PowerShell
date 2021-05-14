@@ -1,5 +1,5 @@
 ---
-- hosts: Thursday
+- hosts: Friday
   gather_facts: False
   strategy: free
   tasks:
