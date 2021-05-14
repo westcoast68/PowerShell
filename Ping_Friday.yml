@@ -4,7 +4,7 @@
   strategy: free
   tasks:
   - win_ping:
-  - debug: msg="{{ details.stdout.replace('\\"',':').split('\n') }}"
+var=details.stdout_lines
    
    
 
